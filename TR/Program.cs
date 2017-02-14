@@ -23,13 +23,13 @@ namespace TR
                 traduction(palabra);
 
                 Console.WriteLine("\nSeguir traduciendo???  s/n");
-                seguir = Console.ReadLine();
+                seguir = Console.ReadLine().ToLower();
                 salir = seguir.Equals("s") ? false : true;
             }
 
             Console.WriteLine("Presione cualquier tecla para salir");
             Console.ReadKey();
-        }
+        }     
 
         public static void traduction(string palabra)
         {

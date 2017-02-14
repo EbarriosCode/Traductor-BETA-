@@ -15,16 +15,16 @@ namespace TR.traducir
 
         public string Entrada
         {
-            get { return entrada; }
-            set { entrada = value; }
+            get { return entrada.ToLower(); }
+            set { entrada = value.ToLower(); }
         }
 
         private string salida;
 
         public string Salida
         {
-            get { return salida; }
-            set { salida = value; }
+            get { return salida.ToLower(); }
+            set { salida = value.ToLower(); }
         }
 
         public string Traducir()
@@ -39,12 +39,6 @@ namespace TR.traducir
                     salida = kakchikel[contador];
                     encontrar = true;
                 }
-
-                //if (!Entrada.Equals(español[contador]))
-                //{
-                //    salida = noEncontrado[contador];
-                //    encontrar = true;
-                //}
                 contador++;
             }
             return salida;
