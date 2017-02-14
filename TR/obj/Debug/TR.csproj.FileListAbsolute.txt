@@ -1,0 +1,5 @@
+c:\users\ebarrios\documents\visual studio 2015\Projects\TR\TR\bin\Debug\TR.exe.config
+c:\users\ebarrios\documents\visual studio 2015\Projects\TR\TR\bin\Debug\TR.exe
+c:\users\ebarrios\documents\visual studio 2015\Projects\TR\TR\bin\Debug\TR.pdb
+c:\users\ebarrios\documents\visual studio 2015\Projects\TR\TR\obj\Debug\TR.exe
+c:\users\ebarrios\documents\visual studio 2015\Projects\TR\TR\obj\Debug\TR.pdb
